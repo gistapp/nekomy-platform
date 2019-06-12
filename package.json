@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack/webpack-dev.config.js --watch --colors",
     "build": "rm -rf dist && webpack --config ./webpack/webpack-prod.config.js --colors",
-    "lint": "eslint src test webpack"
+    "lint": "eslint src test webpack",
+    "engines": {
+    "node": ">=7.4.0"
+  }
   },
   "keywords": [
     "education",
